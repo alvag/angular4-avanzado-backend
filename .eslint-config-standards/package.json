@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@neogeek/eslint-config-standards",
+        "scope": "@neogeek",
+        "escapedName": "@neogeek%2feslint-config-standards",
+        "name": "@neogeek/eslint-config-standards",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/max/Repositorios/Nodejs-API-REST"
+    ]
+  ],
+  "_from": "@neogeek/eslint-config-standards@latest",
+  "_id": "@neogeek/eslint-config-standards@2.0.0",
+  "_inCache": true,
+  "_location": "/@neogeek/eslint-config-standards",
+  "_nodeVersion": "8.0.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/eslint-config-standards-2.0.0.tgz_1500001804578_0.4369409056380391"
+  },
+  "_npmUser": {
+    "name": "neogeek",
+    "email": "hello@scottdoxey.com"
+  },
+  "_npmVersion": "5.2.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@neogeek/eslint-config-standards",
+    "scope": "@neogeek",
+    "escapedName": "@neogeek%2feslint-config-standards",
+    "name": "@neogeek/eslint-config-standards",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/@neogeek/eslint-config-standards/-/eslint-config-standards-2.0.0.tgz",
+  "_shasum": "105891f4d96fba91847257cff44de29721ab313a",
+  "_shrinkwrap": null,
+  "_spec": "@neogeek/eslint-config-standards",
+  "_where": "/home/max/Repositorios/Nodejs-API-REST",
+  "authors": [
+    {
+      "name": "Scott Doxey",
+      "email": "hello@scottdoxey.com",
+      "homepage": "http://scottdoxey.com/"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/neogeek/eslint-config-standards/issues"
+  },
+  "dependencies": {},
+  "description": "ESLint Config Standards",
+  "devDependencies": {
+    "eslint": "4.2.0",
+    "jsdom": "^11.1.0",
+    "request": "^2.81.0"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-tDVpBPtIvDgHdD+1fmJ/zHDy60AF612DWQNklTqhBVA7aXPdMX6xh8nHkM0YlMGv8kXaQVIz2aZM1AbfAvQltQ==",
+    "shasum": "105891f4d96fba91847257cff44de29721ab313a",
+    "tarball": "https://registry.npmjs.org/@neogeek/eslint-config-standards/-/eslint-config-standards-2.0.0.tgz"
+  },
+  "gitHead": "4be8102b487826d33f9fb121a5b0ccd2ba9b58b7",
+  "homepage": "https://github.com/neogeek/eslint-config-standards",
+  "keywords": [
+    "eslint",
+    "config",
+    "eslintconfig"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "neogeek",
+      "email": "hello@scottdoxey.com"
+    }
+  ],
+  "name": "@neogeek/eslint-config-standards",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "eslint": "~4.2.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neogeek/eslint-config-standards.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && npm run update && git diff --exit-code || exit $?",
+    "update": "node utils/update.js"
+  },
+  "version": "2.0.0"
+}

@@ -1,0 +1,72 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "extends": [
+    "./.eslint-config-standards/.eslintrc-best-practices",
+    "./.eslint-config-standards/.eslintrc-ecmascript-6",
+    "./.eslint-config-standards/.eslintrc-nodejs-and-commonjs",
+    "./.eslint-config-standards/.eslintrc-possible-errors",
+    "./.eslint-config-standards/.eslintrc-stylistic-issues",
+    "./.eslint-config-standards/.eslintrc-variables"
+  ],
+  "rules": {
+    "no-magic-numbers": 0,
+    "prefer-destructuring": 0,
+    "semi": 2,
+    "no-extra-semi": 1,
+    "indent": [
+      1,
+      "tab"
+    ],
+    "no-empty": 1,
+    "no-implicit-globals": 0,
+    "prefer-const": 0,
+    "consistent-return": 0,
+    "no-undef": 0,
+    "new-cap": 0,
+    "quote-props": 0,
+    "no-trailing-spaces": 1,
+    "sort-keys": 0,
+    "array-element-newline": 1,
+    "comma-dangle": 1,
+    "func-style": 0,
+    "space-before-function-paren": 0,
+    "padded-blocks": 0,
+    "no-console": 1,
+    "capitalized-comments": 0,
+    "spaced-comment": 1,
+    "eol-last": 0,
+    "arrow-parens": 0,
+    "consistent-this": 0,
+    "no-invalid-this": 0,
+    "func-names": 0,
+    "quotes": 0,
+    "newline-per-chained-call": 0,
+    "no-underscore-dangle": 0,
+    "prefer-promise-reject-errors": 0,
+    "lines-around-comment": [
+      1,
+      {
+        "beforeBlockComment": true,
+        "allowObjectStart": true
+      }
+    ],
+    "no-new": 0,
+    "max-params": [
+      2,
+      5
+    ],
+    "object-curly-spacing": 0,
+    "no-shadow": 0,
+    "max-len": 0,
+    "no-undefined": 0,
+    "guard-for-in": 0,
+    "no-param-reassign": 0,
+    "object-property-newline": 0,
+    "no-sync": 0,
+    "max-statements": 0,
+    "no-tabs": 0,
+    "space-in-parens": 0
+  }
+}
